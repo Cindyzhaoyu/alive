@@ -1,0 +1,82 @@
+.login-wrap {
+  font-size: 14px;
+}
+.login-type-tab {
+  overflow: hidden;
+  border-bottom: 1px solid #e8e8e8;
+  .item {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    padding: 15px;
+    cursor: pointer;
+    &.on {
+      background: #eeeeee;
+      color: #333;
+    }
+  }
+}
+
+.login-normal {
+  padding: 0 20px;
+  margin-top: 30px;
+  input {
+    padding: 0 10px;
+    width: 100%;
+    line-height: 45px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+  }
+  .mobile-panel {
+    .z-mobile {
+    }
+  }
+  .password-panel {
+    margin-top: 20px;
+    .z-password {
+    }
+  }
+  .code-panel {
+    margin-top: 20px;
+    position: relative;
+    .z-code {
+      padding-right: 100px;
+    }
+    .send-code {
+      width: 100px;
+      text-align: center;
+      line-height: 45px;
+      position: absolute;
+      right: 0px;
+      top: 0;
+      font-size: 14px;
+      cursor: pointer;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 0;
+        width: 1px;
+        background: #e8e8e8;
+      }
+    }
+  }
+}
+
+.btn-login {
+  margin-top: 20px;
+  padding: 0 20px;
+  .login {
+    line-height: 50px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    background: #888;
+    pointer-events: none;
+    border-radius: 5px;
+    color: #fff;
+  }
+}
