@@ -1,0 +1,60 @@
+.alive-list {
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0 8px;
+  margin-top: 10px;
+  .item {
+    float: left;
+    width: 50%;
+    padding: 0px 8px;
+    position: relative;
+    margin-top: 10px;
+    .cover {
+      border-radius: 5px;
+      position: relative;
+      height: 0;
+      padding-bottom: 100%;
+      // box-shadow: 0 0 15px #6e64da;
+    }
+    img {
+      border-radius: 5px;
+      width: 100%;
+    }
+    .alive-info {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.3);
+      bottom: 0;
+      left: 8px;
+      right: 8px;
+      color: #fff;
+      padding: 5px;
+    }
+    .alive-part {
+      white-space: nowrap;
+      .alive-name {
+        display: inline-block;
+        max-width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .alive-count {
+        float: right;
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          background: url(../../image/group_fill.png) no-repeat;
+          background-size: 100%;
+          vertical-align: -2px;
+          margin-right: 2px;
+        }
+      }
+    }
+    .alive-desc {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}

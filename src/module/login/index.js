@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.less';
 
-class LoginPage extends React.Component {
+class Login extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -100,4 +100,4 @@ class LoginPage extends React.Component {
   }
 }
 
-export default LoginPage;
+export default Login;
