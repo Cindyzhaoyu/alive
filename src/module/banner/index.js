@@ -12,10 +12,10 @@ class Banner extends React.Component {
         slideClass: 'banner-item',
         spaceBetween: 15,
         centeredSlides: true,
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false
-        // },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
         pagination: {
           el: '.banner-pagination',
           bulletClass: 'banner-pagination-item',

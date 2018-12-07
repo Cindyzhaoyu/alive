@@ -5,10 +5,8 @@ import App from './App';
 import './App.css';
 
 ReactDOM.render(
-  <div className="page">
     <Router>
       <App />
-    </Router>
-  </div>,
+    </Router>,
   document.getElementById('app')
 );
